@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab4 – Exercise 1</title>
+    </head>
+    <body>
+        <h1>JavaScript Lab</h1>
+        <script>
+            // Write your JavaScript code here
+            let x = 10;
+            const y = 20;
+            var z = 30;
+            console.log(`x:${x} y:${y} z:${z}`);
+            console.log('After changing x to 100');
+            x = 100;
+            console.log(`x:${x}`);
+            console.log('After changing y to 200, error occurs because y is a constant');
+            // y = 200;
+            // console.log(`y:${y}`);
+            let string1 = "Hello, World!"
+            let string2 = "JavaScript is fun!"
+            console.log(string1.length);
+            console.log(string1.concat(string2));
+            console.log(string2.replace("fun", "awesome"));
+            let name = "Alice"
+            let age = 25
+            console.log(`My name is ${name} and I am ${age} years old`);
+            const now = new Date();
+            console.log(now);
+            console.log(now.getFullYear());
+            console.log(now.getMonth());
+            console.log(now.getDate());
+            let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            let day = days[now.getDay()];
+            console.log(day);
+        </script>
+    </body>
+</html>
